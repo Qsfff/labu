@@ -1,0 +1,11 @@
+D:\Razrabotka\Labu\Lab2\Lab2_1\bin\Debug\Lab2_1.exe.config
+D:\Razrabotka\Labu\Lab2\Lab2_1\bin\Debug\Lab2_1.exe
+D:\Razrabotka\Labu\Lab2\Lab2_1\bin\Debug\Lab2_1.pdb
+D:\Razrabotka\Labu\Lab2\Lab2_1\obj\Debug\Lab2_1.csproj.AssemblyReference.cache
+D:\Razrabotka\Labu\Lab2\Lab2_1\obj\Debug\Lab2_1.csproj.SuggestedBindingRedirects.cache
+D:\Razrabotka\Labu\Lab2\Lab2_1\obj\Debug\Lab2_1.binCalc.resources
+D:\Razrabotka\Labu\Lab2\Lab2_1\obj\Debug\Lab2_1.Properties.Resources.resources
+D:\Razrabotka\Labu\Lab2\Lab2_1\obj\Debug\Lab2_1.csproj.GenerateResource.cache
+D:\Razrabotka\Labu\Lab2\Lab2_1\obj\Debug\Lab2_1.csproj.CoreCompileInputs.cache
+D:\Razrabotka\Labu\Lab2\Lab2_1\obj\Debug\Lab2_1.exe
+D:\Razrabotka\Labu\Lab2\Lab2_1\obj\Debug\Lab2_1.pdb

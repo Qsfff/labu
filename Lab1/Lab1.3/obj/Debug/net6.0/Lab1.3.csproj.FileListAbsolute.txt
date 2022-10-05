@@ -1,0 +1,15 @@
+D:\Razrabotka\Labu\Lab1\Lab1.3\bin\Debug\net6.0\Lab1.3.exe
+D:\Razrabotka\Labu\Lab1\Lab1.3\bin\Debug\net6.0\Lab1.3.deps.json
+D:\Razrabotka\Labu\Lab1\Lab1.3\bin\Debug\net6.0\Lab1.3.runtimeconfig.json
+D:\Razrabotka\Labu\Lab1\Lab1.3\bin\Debug\net6.0\Lab1.3.dll
+D:\Razrabotka\Labu\Lab1\Lab1.3\bin\Debug\net6.0\Lab1.3.pdb
+D:\Razrabotka\Labu\Lab1\Lab1.3\obj\Debug\net6.0\Lab1.3.csproj.AssemblyReference.cache
+D:\Razrabotka\Labu\Lab1\Lab1.3\obj\Debug\net6.0\Lab1.3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Razrabotka\Labu\Lab1\Lab1.3\obj\Debug\net6.0\Lab1.3.AssemblyInfoInputs.cache
+D:\Razrabotka\Labu\Lab1\Lab1.3\obj\Debug\net6.0\Lab1.3.AssemblyInfo.cs
+D:\Razrabotka\Labu\Lab1\Lab1.3\obj\Debug\net6.0\Lab1.3.csproj.CoreCompileInputs.cache
+D:\Razrabotka\Labu\Lab1\Lab1.3\obj\Debug\net6.0\Lab1.3.dll
+D:\Razrabotka\Labu\Lab1\Lab1.3\obj\Debug\net6.0\refint\Lab1.3.dll
+D:\Razrabotka\Labu\Lab1\Lab1.3\obj\Debug\net6.0\Lab1.3.pdb
+D:\Razrabotka\Labu\Lab1\Lab1.3\obj\Debug\net6.0\Lab1.3.genruntimeconfig.cache
+D:\Razrabotka\Labu\Lab1\Lab1.3\obj\Debug\net6.0\ref\Lab1.3.dll

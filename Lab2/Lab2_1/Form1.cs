@@ -139,10 +139,5 @@ namespace Lab2_1
         {
             if (binDiv(geta(), getb()).Length != 1) result.Text = arrtostr(binDiv(geta(), getb()));
         }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -8,15 +8,15 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <ListBox HorizontalAlignment="Left" Height="76" Margin="20,10,0,0" VerticalAlignment="Top" Width="225">
-            <ListBoxItem Content="Mercuriy" MouseDoubleClick="f1"/>
-            <ListBoxItem Content="Venera" MouseDoubleClick="f2"/>
-            <ListBoxItem Content="Zemlya" MouseDoubleClick="f3"/>
-            <ListBoxItem Content="Mars" MouseDoubleClick="f4"/>
-            <ListBoxItem Content="Upiter" MouseDoubleClick="f5"/>
-            <ListBoxItem Content="Saturn" MouseDoubleClick="f6"/>
-            <ListBoxItem Content="Uran" MouseDoubleClick="f7"/>
-            <ListBoxItem Content="Neptun" MouseDoubleClick="f8"/>
-            <ListBoxItem Content="Pluton" MouseDoubleClick="f9"/>
+            <ListBoxItem Content="Mercuriy" Selected="f1"/>
+            <ListBoxItem Content="Venera" Selected="f2"/>
+            <ListBoxItem Content="Zemlya" Selected="f3"/>
+            <ListBoxItem Content="Mars" Selected="f4"/>
+            <ListBoxItem Content="Upiter" Selected="f5"/>
+            <ListBoxItem Content="Saturn" Selected="f6"/>
+            <ListBoxItem Content="Uran" Selected="f7"/>
+            <ListBoxItem Content="Neptun" Selected="f8"/>
+            <ListBoxItem Content="Pluton" Selected="f9"/>
         </ListBox>
         <Label x:Name="res" Content="" HorizontalAlignment="Left" Height="189" Margin="28,109,0,0" VerticalAlignment="Top" Width="721" FontSize="22"/>
 

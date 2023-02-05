@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="" HorizontalAlignment="Left" Height="62" Margin="68,323,0,0" VerticalAlignment="Top" Width="394"/>
-        <Button x:Name="k" Content="sbros" HorizontalAlignment="Left" Height="68" Margin="603,18,0,0" VerticalAlignment="Top" Width="116"/>
-        <Button x:Name="n" Content="start" HorizontalAlignment="Left" Height="23" Margin="577,108,0,0" VerticalAlignment="Top" Width="26"/>
-        <Button x:Name="v" Content="stop" HorizontalAlignment="Left" Height="17" Margin="546,201,0,0" VerticalAlignment="Top" Width="225"/>
-        <CheckBox Content="secundis" HorizontalAlignment="Left" Height="31" Margin="52,18,0,0" VerticalAlignment="Top" Width="151"/>
-        <CheckBox Content="minutis" HorizontalAlignment="Left" Height="44" Margin="59,67,0,0" VerticalAlignment="Top" Width="144"/>
-        <CheckBox Content="chasis" HorizontalAlignment="Left" Height="29" Margin="59,158,0,0" VerticalAlignment="Top" Width="162"/>
+        <Label x:Name="res" Content="" HorizontalAlignment="Left" Height="62" Margin="68,323,0,0" VerticalAlignment="Top" Width="394"/>
+        <Button x:Name="k" Content="sbros" HorizontalAlignment="Left" Height="68" Margin="603,18,0,0" VerticalAlignment="Top" Width="116" Click="noooo"/>
+        <Button x:Name="n" Content="start" HorizontalAlignment="Left" Height="23" Margin="577,108,0,0" VerticalAlignment="Top" Width="26" Click="zap"/>
+        <Button x:Name="v" Content="stop" HorizontalAlignment="Left" Height="17" Margin="546,201,0,0" VerticalAlignment="Top" Width="225" Click="neo"/>
+        <CheckBox x:Name="se" Content="secundis" HorizontalAlignment="Left" Height="31" Margin="52,21,0,0" VerticalAlignment="Top" Width="151"/>
+        <CheckBox x:Name="mi" Content="minutis" HorizontalAlignment="Left" Height="44" Margin="52,62,0,0" VerticalAlignment="Top" Width="144"/>
+        <CheckBox x:Name="ch" Content="chasis" HorizontalAlignment="Left" Height="29" Margin="52,102,0,0" VerticalAlignment="Top" Width="162"/>
 
     </Grid>
 </Window>

@@ -32,7 +32,7 @@ namespace PiOGI_z2_4
             o = true;
             t = new System.Windows.Threading.DispatcherTimer();
             t.Tick += new EventHandler(dispatcherTimer_Tick);
-            t.Interval = new TimeSpan(0, 0, 0, 0, 500);
+            t.Interval = new TimeSpan(0, 0, 0, 0, 1000);
             InitializeComponent();
 
         }

@@ -20,25 +20,7 @@ namespace PiOGI_z3
     /// </summary>
     public partial class MainWindow : Window
     {
-        struct timers
-        {
-            public int Chas;
-            public int Minuta;
-            public int Secunda;
-            public int Day;
-            public int Month;
-            public int Year;
-            public timers(int Chas = 0, int Minuta = 0, int Secunda = 0, int Day = 1, int Month = 1, int Year = 3000)
-            {
-                this.Chas = Chas;
-                this.Minuta = Minuta;
-                this.Secunda = Secunda;
-                this.Day = Day;
-                this.Month = Month;
-                this.Year = Year;
-            }
-        }
-        Dictionary<string, timers> list = new Dictionary<string, timers>();
+        Dictionary<string, DateTime> list = new Dictionary<string, DateTime>();
         int chasu, minu, seci, dni;
         System.Windows.Threading.DispatcherTimer t;
         public MainWindow()
@@ -74,8 +56,8 @@ namespace PiOGI_z3
             DateSelection add_ = new DateSelection();
             if (add_.ShowDialog() == true)
             {
-                timers timEr = new timers(int.Parse(add_.Chasis.Text), int.Parse(add_.Minutis.Text), int.Parse(add_.Secundis.Text), int.Parse(add_.Denis.Text), int.Parse(add_.Mesyacis.Text), int.Parse(add_.Godis.Text));
-                if ((DateTime.Now.Year < timEr.Year) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month < timEr.Month)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day < timEr.Day)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour < timEr.Chas)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour == timEr.Chas) && (DateTime.Now.Minute < timEr.Minuta)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour == timEr.Chas) && (DateTime.Now.Minute == timEr.Minuta) && (DateTime.Now.Second < timEr.Secunda)))
+                DateTime timEr = new DateTime(int.Parse(add_.Godis.Text), int.Parse(add_.Mesyacis.Text), int.Parse(add_.Denis.Text), int.Parse(add_.Chasis.Text), int.Parse(add_.Minutis.Text), int.Parse(add_.Secundis.Text));
+                if ((DateTime.Now.Year < timEr.Year) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month < timEr.Month)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day < timEr.Day)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour < timEr.Hour)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour == timEr.Hour) && (DateTime.Now.Minute < timEr.Minute)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour == timEr.Hour) && (DateTime.Now.Minute == timEr.Minute) && (DateTime.Now.Second < timEr.Second)))
                 {
                     list.Add(add_.Nazva.Text, timEr);
                     timeru.Items.Add(add_.Nazva.Text);
@@ -91,17 +73,17 @@ namespace PiOGI_z3
             {
                 DateSelection add_ = new DateSelection();
                 add_.Nazva.Text = (string)timeru.SelectedValue;
-                add_.Chasis.Text = list[(string)timeru.SelectedValue].Chas.ToString();
-                add_.Minutis.Text = list[(string)timeru.SelectedValue].Minuta.ToString();
-                add_.Secundis.Text = list[(string)timeru.SelectedValue].Secunda.ToString();
+                add_.Chasis.Text = list[(string)timeru.SelectedValue].Hour.ToString();
+                add_.Minutis.Text = list[(string)timeru.SelectedValue].Minute.ToString();
+                add_.Secundis.Text = list[(string)timeru.SelectedValue].Second.ToString();
                 add_.Denis.Text = list[(string)timeru.SelectedValue].Day.ToString();
                 add_.Mesyacis.Text = list[(string)timeru.SelectedValue].Month.ToString();
                 add_.Godis.Text = list[(string)timeru.SelectedValue].Year.ToString();
                 if (add_.ShowDialog() == true)
                 {
                     antitimer();
-                    timers timEr = new timers(int.Parse(add_.Chasis.Text), int.Parse(add_.Minutis.Text), int.Parse(add_.Secundis.Text), int.Parse(add_.Denis.Text), int.Parse(add_.Mesyacis.Text), int.Parse(add_.Godis.Text));
-                    if ((DateTime.Now.Year < timEr.Year) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month < timEr.Month)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day < timEr.Day)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour < timEr.Chas)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour == timEr.Chas) && (DateTime.Now.Minute < timEr.Minuta)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour == timEr.Chas) && (DateTime.Now.Minute == timEr.Minuta) && (DateTime.Now.Second < timEr.Secunda)))
+                    DateTime timEr = new DateTime(int.Parse(add_.Godis.Text), int.Parse(add_.Mesyacis.Text), int.Parse(add_.Denis.Text), int.Parse(add_.Chasis.Text), int.Parse(add_.Minutis.Text), int.Parse(add_.Secundis.Text));
+                    if ((DateTime.Now.Year < timEr.Year) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month < timEr.Month)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day < timEr.Day)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour < timEr.Hour)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour == timEr.Hour) && (DateTime.Now.Minute < timEr.Minute)) || ((DateTime.Now.Year == timEr.Year) && (DateTime.Now.Month == timEr.Month) && (DateTime.Now.Day == timEr.Day) && (DateTime.Now.Hour == timEr.Hour) && (DateTime.Now.Minute == timEr.Minute) && (DateTime.Now.Second < timEr.Second)))
                     {
                         list.Add(add_.Nazva.Text, timEr);
                         timeru.Items.Add(add_.Nazva.Text);
@@ -120,7 +102,12 @@ namespace PiOGI_z3
             {
                 System.IO.StreamReader file = new System.IO.StreamReader(dlg.FileName);
                 string name = file.ReadLine();
-                timers timEr = new timers(int.Parse(file.ReadLine()), int.Parse(file.ReadLine()), int.Parse(file.ReadLine()), int.Parse(file.ReadLine()), int.Parse(file.ReadLine()), int.Parse(file.ReadLine()));
+
+                while (list.ContainsKey(name))
+                {
+                    name += "1";
+                }
+                DateTime timEr = new DateTime(int.Parse(file.ReadLine()), int.Parse(file.ReadLine()), int.Parse(file.ReadLine()), int.Parse(file.ReadLine()), int.Parse(file.ReadLine()), int.Parse(file.ReadLine()));
                 list.Add(name, timEr);
                 timeru.Items.Add(name);
                 file.Close();
@@ -138,12 +125,12 @@ namespace PiOGI_z3
                 {
                     System.IO.StreamWriter file = new System.IO.StreamWriter(dlg.FileName);
                     file.WriteLine((string)timeru.SelectedValue);
-                    file.WriteLine(list[(string)timeru.SelectedValue].Chas.ToString());
-                    file.WriteLine(list[(string)timeru.SelectedValue].Minuta.ToString());
-                    file.WriteLine(list[(string)timeru.SelectedValue].Secunda.ToString());
-                    file.WriteLine(list[(string)timeru.SelectedValue].Day.ToString());
-                    file.WriteLine(list[(string)timeru.SelectedValue].Month.ToString());
                     file.WriteLine(list[(string)timeru.SelectedValue].Year.ToString());
+                    file.WriteLine(list[(string)timeru.SelectedValue].Month.ToString());
+                    file.WriteLine(list[(string)timeru.SelectedValue].Day.ToString());
+                    file.WriteLine(list[(string)timeru.SelectedValue].Hour.ToString());
+                    file.WriteLine(list[(string)timeru.SelectedValue].Minute.ToString());
+                    file.WriteLine(list[(string)timeru.SelectedValue].Second.ToString());
                     file.Close();
                 }
             }
@@ -217,9 +204,9 @@ namespace PiOGI_z3
                     if ((i % 4) == 0) dni += 366;
                     else dni += 365;
                 }
-                chasu = list[(string)timeru.SelectedValue].Chas - DateTime.Now.Hour;
-                minu = list[(string)timeru.SelectedValue].Minuta - DateTime.Now.Minute;
-                seci = list[(string)timeru.SelectedValue].Secunda - DateTime.Now.Second;
+                chasu = list[(string)timeru.SelectedValue].Hour - DateTime.Now.Hour;
+                minu = list[(string)timeru.SelectedValue].Minute - DateTime.Now.Minute;
+                seci = list[(string)timeru.SelectedValue].Second - DateTime.Now.Second;
                 t.Start();
             }
         }

@@ -122,18 +122,9 @@ namespace PiOGI_z7
         }
         private void dispatcherTimer_Tick(object sender, EventArgs e)
         {
-            sec += 1;
-            if (sec == 60)
-            {
-                sec = 0;
-                min += 1;
-            }
-            if (min == 60) 
-            {
-                min = 0; 
-                hour += 1;
-                if (hour == 24) { hour = 0; }
-            }
+            sec = DateTime.Now.Second;
+            min = DateTime.Now.Minute;
+            hour = DateTime.Now.Hour;
             hourl.X2 = -180 * Math.Sin(Math.PI / 6 * hour) + 300;
             hourl.Y2 = 180 * Math.Cos(Math.PI / 6 * hour) + 300;
             minl.X2 = -225 * Math.Sin(Math.PI / 30 * min) + 300;

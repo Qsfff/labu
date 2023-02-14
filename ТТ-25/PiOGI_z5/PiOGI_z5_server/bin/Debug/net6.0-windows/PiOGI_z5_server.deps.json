@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PiOGI_z5_server/1.0.0": {
+        "runtime": {
+          "PiOGI_z5_server.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PiOGI_z5_server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

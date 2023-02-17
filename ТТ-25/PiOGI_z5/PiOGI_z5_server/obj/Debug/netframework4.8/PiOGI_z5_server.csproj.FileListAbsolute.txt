@@ -1,0 +1,17 @@
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\PiOGI_z5_server.csproj.AssemblyReference.cache
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\PiOGI_z5_server.csproj.SuggestedBindingRedirects.cache
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\MainWindow.g.cs
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\App.g.cs
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\PiOGI_z5_server_MarkupCompile.cache
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\PiOGI_z5_server_MarkupCompile.lref
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\bin\Debug\netframework4.8\PiOGI_z5_server.exe.config
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\bin\Debug\netframework4.8\PiOGI_z5_server.exe
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\bin\Debug\netframework4.8\PiOGI_z5_server.pdb
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\MainWindow.baml
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\PiOGI_z5_server.g.resources
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\PiOGI_z5_server.GeneratedMSBuildEditorConfig.editorconfig
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\PiOGI_z5_server.AssemblyInfoInputs.cache
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\PiOGI_z5_server.AssemblyInfo.cs
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\PiOGI_z5_server.csproj.CoreCompileInputs.cache
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\PiOGI_z5_server.exe
+X:\Учёба\prog\ТТ-25\PiOGI_z5\PiOGI_z5_server\obj\Debug\netframework4.8\PiOGI_z5_server.pdb

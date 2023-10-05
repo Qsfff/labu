@@ -1,0 +1,19 @@
+﻿<Window x:Class="Третьяков_Васильковский_2.secint"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Третьяков_Васильковский_2" 
+        xmlns:WindowsPresentation="clr-namespace:GMap.NET.WindowsPresentation;assembly=GMap.NET.WindowsPresentation"
+        mc:Ignorable="d"
+        Title="Choose second point" Height="450" Width="800">
+    <Grid>
+        <WindowsPresentation:GMapControl Name="map" Loaded="MapLoaded" Margin="0,47,0,0" MouseLeftButtonDown="choskoor"/>
+        <Label HorizontalAlignment="Left" Height="32" Margin="7,3,0,0" VerticalAlignment="Top" Width="252" Content="Koordinates: latitude: " FontSize="20" FontFamily="Arial Black"/>
+        <Label x:Name="latude" HorizontalAlignment="Left" Height="32" Margin="247,3,0,0" VerticalAlignment="Top" Width="127" FontSize="20" FontFamily="Arial Black" Content="0"/>
+        <Label HorizontalAlignment="Left" Height="32" Margin="367,3,0,0" VerticalAlignment="Top" Width="252" Content=", longitude: " FontSize="20" FontFamily="Arial Black"/>
+        <Label x:Name="lontude" HorizontalAlignment="Left" Height="32" Margin="493,3,0,0" VerticalAlignment="Top" Width="127" FontSize="20" FontFamily="Arial Black" Content="0"/>
+        <Button Content="Ok" Margin="688,0,40,379" FontSize="25" FontFamily="Arial Black" Click="zeOk"/>
+        <Button Content="Add" Margin="592,0,136,379" FontSize="25" FontFamily="Arial Black" Click="plasplas"/>
+    </Grid>
+</Window>

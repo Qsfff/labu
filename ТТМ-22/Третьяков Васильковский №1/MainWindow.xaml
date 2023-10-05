@@ -1,0 +1,37 @@
+﻿<Window x:Class="Третьяков_Васильковский__1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Третьяков_Васильковский__1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="506" Width="1097">
+    <Grid x:Name="window">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="663*"/>
+            <ColumnDefinition Width="434*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Random point" HorizontalAlignment="Left" Height="40" Margin="22,15,0,0" VerticalAlignment="Top" Width="134" FontSize="20" Click="ineedpoints"/>
+        <Button Content="Random triangle" HorizontalAlignment="Left" Height="40" Margin="161,15,0,0" VerticalAlignment="Top" Width="155" FontSize="20" Click="ineedtris"/>
+        <Button Content="Random rectangle" HorizontalAlignment="Left" Height="40" Margin="321,15,0,0" VerticalAlignment="Top" Width="166" FontSize="20" Click="ineedrectus"/>
+        <Button Content="Rectangle" HorizontalAlignment="Left" Height="40" Margin="503,15,0,0" VerticalAlignment="Top" Width="92" FontSize="20" Click="theRector"/>
+        <TextBox x:Name="len" HorizontalAlignment="Left" Height="25" Margin="183,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Text="0" Grid.Column="1"/>
+        <TextBox x:Name="hei" HorizontalAlignment="Left" Height="25" Margin="183,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Text="0" Grid.Column="1"/>
+        <TextBox x:Name="posx" HorizontalAlignment="Left" Height="25" Margin="183,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Text="0" Grid.Column="1"/>
+        <TextBox x:Name="posy" HorizontalAlignment="Left" Height="25" Margin="183,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Text="0" Grid.Column="1"/>
+        <Label Content="Rectangle size:" HorizontalAlignment="Left" Height="27" Margin="183,15,0,0" VerticalAlignment="Top" Width="125" Grid.Column="1"/>
+        <Label Content="Length:" HorizontalAlignment="Left" Height="27" Margin="183,45,0,0" VerticalAlignment="Top" Width="125" Grid.Column="1"/>
+        <Label Content="Height:" HorizontalAlignment="Left" Height="27" Margin="183,103,0,0" VerticalAlignment="Top" Width="125" Grid.Column="1"/>
+        <Label Content="Rectangle position:" HorizontalAlignment="Left" Height="27" Margin="183,169,0,0" VerticalAlignment="Top" Width="125" Grid.Column="1"/>
+        <Label Content="X:" HorizontalAlignment="Left" Height="27" Margin="183,210,0,0" VerticalAlignment="Top" Width="125" Grid.Column="1"/>
+        <Label Content="Y:" HorizontalAlignment="Left" Height="27" Margin="183,267,0,0" VerticalAlignment="Top" Width="125" Grid.Column="1"/>
+        <Canvas x:Name="holst" HorizontalAlignment="Left" Height="359" Margin="214,176,0,0" VerticalAlignment="Top" Width="620" Grid.ColumnSpan="2"/>
+        <Slider x:Name="xpos" HorizontalAlignment="Center" Height="23" Margin="0,75,0,0" VerticalAlignment="Top" Width="265" Minimum="-300" Maximum="300" ValueChanged="xcha"/>
+        <Slider x:Name="ypos" HorizontalAlignment="Center" Height="23" Margin="0,100,0,0" VerticalAlignment="Top" Width="265" Maximum="150" Minimum="-150" ValueChanged="ycha"/>
+        <Label Content="X pos" HorizontalAlignment="Left" Height="27" Margin="151,67,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label Content="Y pos" HorizontalAlignment="Left" Height="27" Margin="154,92,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label x:Name="perim" HorizontalAlignment="Left" Height="27" Margin="22,13,0,0" VerticalAlignment="Top" Width="125" Grid.Column="1"/>
+        <Label x:Name="plo" HorizontalAlignment="Left" Height="27" Margin="16,52,0,0" VerticalAlignment="Top" Width="125" Grid.Column="1"/>
+
+    </Grid>
+</Window>

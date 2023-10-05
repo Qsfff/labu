@@ -1,0 +1,20 @@
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\bin\Debug\net6.0-windows\Третьяков Васильковский №1.exe
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\bin\Debug\net6.0-windows\Третьяков Васильковский №1.deps.json
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\bin\Debug\net6.0-windows\Третьяков Васильковский №1.runtimeconfig.json
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\bin\Debug\net6.0-windows\Третьяков Васильковский №1.dll
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\bin\Debug\net6.0-windows\Третьяков Васильковский №1.pdb
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\Третьяков Васильковский №1_MarkupCompile.cache
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\Третьяков Васильковский №1_MarkupCompile.lref
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\Третьяков Васильковский №1.g.resources
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\Третьяков Васильковский №1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\Третьяков Васильковский №1.AssemblyInfoInputs.cache
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\Третьяков Васильковский №1.AssemblyInfo.cs
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\Третьяков Васильковский №1.csproj.CoreCompileInputs.cache
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\Третьяков Васильковский №1.dll
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\refint\Третьяков Васильковский №1.dll
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\Третьяков Васильковский №1.pdb
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\Третьяков Васильковский №1.genruntimeconfig.cache
+C:\Users\SAPR\Desktop\labu-main\labu-main\ТТМ-22\Третьяков Васильковский №1\obj\Debug\net6.0-windows\ref\Третьяков Васильковский №1.dll

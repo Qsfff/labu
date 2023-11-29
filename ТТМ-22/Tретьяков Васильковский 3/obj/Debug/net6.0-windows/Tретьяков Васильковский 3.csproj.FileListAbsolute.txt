@@ -1,0 +1,22 @@
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\bin\Debug\net6.0-windows\Tретьяков Васильковский 3.exe
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\bin\Debug\net6.0-windows\Tретьяков Васильковский 3.deps.json
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\bin\Debug\net6.0-windows\Tретьяков Васильковский 3.runtimeconfig.json
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\bin\Debug\net6.0-windows\Tретьяков Васильковский 3.dll
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\bin\Debug\net6.0-windows\Tретьяков Васильковский 3.pdb
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\MainWindow.g.cs
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\slavegenerator.g.cs
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\App.g.cs
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\Tретьяков Васильковский 3_MarkupCompile.cache
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\Tретьяков Васильковский 3_MarkupCompile.lref
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\MainWindow.baml
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\slavegenerator.baml
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\Tретьяков Васильковский 3.g.resources
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\Tретьяков Васильковский 3.GeneratedMSBuildEditorConfig.editorconfig
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\Tретьяков Васильковский 3.AssemblyInfoInputs.cache
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\Tретьяков Васильковский 3.AssemblyInfo.cs
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\Tретьяков Васильковский 3.csproj.CoreCompileInputs.cache
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\Tретьяков Васильковский 3.dll
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\refint\Tретьяков Васильковский 3.dll
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\Tретьяков Васильковский 3.pdb
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\Tретьяков Васильковский 3.genruntimeconfig.cache
+X:\Учёба\prog\ТТМ-22\Tретьяков Васильковский 3\obj\Debug\net6.0-windows\ref\Tретьяков Васильковский 3.dll
